@@ -38,5 +38,5 @@ mvn package :-- for creating the jar
 # for simplicity:
 in the main folder i put two bash(windows script)
 
-runapp:- for runing the application
-testapp:- for executing the test
+# runapp:- for runing the application
+# testapp:- for executing the test
