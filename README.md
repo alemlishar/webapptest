@@ -18,7 +18,8 @@
   me the free json converting mechanism
 
 
-# url http://localhost:8081/atms
+# uri http://localhost:8081/atms
+# method: GET
 
 # compilation:
 
