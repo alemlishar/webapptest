@@ -3,9 +3,10 @@
 used Singleton(not thread safe) as a memory
 junit for unit testing
 
-Flow
-*it only call once the rest service to get the datas, then after it store in the 
- memory and response from the singelton storage 
+# Flow
+
+* it only call once the rest service to get the datas, then after it store in the 
+  memory and response from the singelton storage 
  
 *i tried to mimic in the springboot main class commandlinerunner when the application 
  start to make the request and store it in the memory for simplicity i put all the logic in the controller class.
@@ -16,9 +17,9 @@ Flow
   me the free json converting mechanism
 
 
-url http://localhost:8081/atms
+# url http://localhost:8081/atms
 
-compilation:
+# compilation:
 
 be inside the home folder of the webproject
 you can test it in two way
@@ -33,7 +34,7 @@ mvn spring-boot:run :-- for running the application
 mvn package :-- for creating the jar
 
 
-for simplicity:
+# for simplicity:
 in the main folder i put two bash(windows script)
 
 runapp:- for runing the application
